@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: MyAppName   # Set the application name
+
+server:
+  port: 8080          # Set the server port
+
+logging:
+  level:
+    root: INFO        # Set the global logging level to INFO
+    com.infy.service: DEBUG  # Set logging level for a specific package
